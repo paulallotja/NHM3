@@ -1,0 +1,198 @@
+
+
+.navbar-brand > img{
+/*	width: 40%;*/
+	height: 80px;
+	margin-left: 25%;
+}
+
+
+.nav-link {
+	font-size: 25px;
+	color: #f5f0eb;	
+
+}
+
+.nav-link:hover{
+	color: #a6633c;
+}
+
+.container-fluid {
+	background-color: #2e2626;
+}
+
+.nav-item {
+	margin-right: 25px;
+/*	background-color: indianred;
+*/}
+
+.navbar-expand-lg .navbar-collapse{
+	justify-content: end;
+}
+
+/*ehhehehehehhehehheheheheheehheheh*/
+
+#fondo{
+	width: 100vw;
+    height: auto;
+    background-color: #8B969F;
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+    padding-bottom:6rem;
+
+
+}
+
+
+.fondoform {
+	width: 75%;
+	height: auto;
+	background-color: #ffff;
+	margin-left: 5%;
+	padding-bottom: 20px;
+
+}
+
+.formsize {
+	width: 75%;
+	height: auto;
+/*	background-color: indianred;*/
+/*  margin-bottom: 3rem;*/
+
+}
+
+h1 {
+	color:#ffff;
+	padding-top: 10%;
+	margin-left: 5%;
+	padding-bottom:3%;
+}
+
+
+form{
+	padding-top:3%;
+	padding-left: 3%;
+
+}
+
+
+.form-label{
+	font-size: calc(0.6rem + 0.9vw);
+	margin-bottom: 1rem;
+}
+
+.form-text{
+	font-size: calc(0.3rem + 0.7vw);
+	
+}
+.form-control {
+margin-bottom: 1rem;
+}
+
+.form-control {
+margin-bottom: 1rem;
+}
+
+
+
+
+
+
+button {
+    padding-top: 10px; 
+    margin-top: 15%;
+    margin-bottom: 15%;
+    margin-left: 10%; 
+    font-size: calc(0.6rem + 0.7vw); 
+}
+
+button[type="submit"] {
+    font-size: calc(0.4rem + 0.7vw); 
+}
+
+button > hover{
+	color:  #684C3F;
+  text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+/*ehehehhehehehehehhehehehehehhehehehehe*/
+
+
+
+
+
+.footer {
+    width: 100vw;
+    height: auto;
+    background-color: #2e2626;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; }
+
+.cajalogo > img {
+    width: 60%; 
+    height: auto;
+    display: block; 
+    margin: 0 auto; 
+}
+
+.cajacontacto {
+    color: white;
+    text-align: center;
+    font-size: 150%; 
+}
+
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .cajalogo > img {
+        order: 2; 
+
+    }
+
+    .cajacontacto {
+        margin-bottom: 0;
+    }
+}
+
+
+.marca {
+    text-align: center ;
+    color:lightgray;
+}
+
+.footer {
+   
+    justify-content: flex-start; 
+}
+
+@media (max-width: 1600px) {
+    .footer {
+        justify-content: center; 
+    }
+}
+
+
+.btn-primary { 
+	width:20% ;
+    height: auto;
+    background-color: #684C3F;
+    color: white;
+    margin-left: 95%;
+    display: block;
+    font-size: calc(0.7rem + 1.7vw);
+    border-radius: 18px;

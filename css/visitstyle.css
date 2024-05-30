@@ -1,0 +1,382 @@
+.navbar-brand > img{
+/*	width: 40%;*/
+	height: 80px;
+	margin-left: 25%;
+}
+
+
+.nav-link {
+	font-size: 25px;
+	color: #f5f0eb;	
+
+}
+
+.nav-link:hover{
+	color: #a6633c;
+}
+
+.container-fluid {
+	background-color: #2e2626;
+}
+
+.nav-item {
+	margin-right: 25px;
+/*	background-color: indianred;
+*/}
+
+.navbar-expand-lg .navbar-collapse{
+	justify-content: end;
+}
+
+#intro {
+    background-color: #f8f9fa; 
+    background-image: url("../media/fondo1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 6rem;
+}
+
+.memuero {
+    width: 80%;
+    margin: 0 auto;
+    position: relative; 
+    overflow: hidden; 
+}
+
+.mapbutton { 
+    height: auto;
+    background-color: #684C3F;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    font-size: calc(0.7rem + 1.7vw);
+    border-radius: 18px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 7rem;
+}
+
+
+.mapa {
+  color: white; 
+  text-decoration: none; 
+}
+
+.mapa:hover {
+    color:  #684C3F;
+  text-decoration: none;
+}
+
+
+.aleluya
+{
+	margin-bottom: 2rem;
+}
+
+.card {
+    height: 100%; 
+}
+
+.losgatos
+{
+	margin-bottom: 4rem;
+}
+
+
+#calendar {
+	width: 100%;
+	height: auto;
+	background-color:#2e2626;
+	color: white;
+    padding-top: 6%;
+}
+
+h1 {
+	padding-bottom: 6%;
+	font-size: calc(0.7rem + 2vw);
+}
+
+h2 {
+	text-decoration: underline;
+	padding-bottom: 1%;
+}
+
+h3 {
+	padding-bottom: 2%;
+}
+
+.solandecabras {
+    width: 80%;
+    margin: 0 auto;
+    position: relative; 
+    overflow: hidden; 
+}
+
+.ricardo
+{
+	margin-bottom: 2rem;
+	padding-top: 2rem;
+}
+
+.lospeces
+{
+	margin-bottom: 4rem;
+}
+
+
+@media (min-width: 1200px) {
+  .col-xl-8 img {
+    margin-left: 350px;
+  }
+}
+
+
+@media (min-width: 1500px) {
+  .col-md-8 img {
+    margin-left: 400px; 
+  }
+}
+
+
+
+.ricardo > h1 {
+    font-size: calc(2rem + 2vw);
+
+}
+
+
+#Gafas
+{
+    width: 100%;
+    height: auto;
+    background-image: url("../media/fondo2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Martin {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+    padding-bottom: 05%;}
+
+.Bolso {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto; /
+}
+
+.Martin>h4
+{
+    color: #684C3F;
+    font-size: calc(2.1rem + 0.3vw);
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+
+.Textowutson
+{
+    width: 100%;
+}
+
+.Textowutson>h4
+{
+    color: #684C3F;
+    font-size: calc(1.1rem + 0.3vw);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.Textowutson>p
+{
+    color: #684C3F;
+    font-size: calc(0.8rem + 0.3vw);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.Imgwutson>img
+{
+    width: 100%;
+    height: auto;
+}
+
+/*hehehehehhehehehhehehehhehehehhehe*/
+
+#FreeEvents
+{
+    width: 100%;
+    height: auto;
+    background-image: url("../media/fondo5.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Bocata {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.Nocilla {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto; /
+}
+
+@media (min-width: 768px) {
+    .Nocilla {
+        flex-basis: calc(33.3333% - 20px); 
+        margin-right: 20px; 
+    }
+
+    .Nocilla:nth-child(3n) {
+        margin-right: 0;
+    }
+}
+
+.Bocata>h4
+{
+    color: #684C3F;
+    font-size: calc(2.1rem + 0.3vw);
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+
+.Textofree
+{
+    width: 100%;
+}
+
+.Textofree>h4
+{
+    color: #684C3F;
+    font-size: calc(1.1rem + 0.3vw);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.Textofree>p
+{
+    color: #684C3F;
+    font-size: calc(0.8rem + 0.3vw);
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.Imgfree>img
+{
+    width: 100%;
+    height: auto;
+}
+
+
+.purchasebutton { 
+    height: auto;
+    background-color: #684C3F;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    font-size: calc(0.9rem + 1vw);
+    border-radius: 18px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+
+#Guidedtours
+{
+    width: 100%;
+    height: auto;
+    background-image: url("../media/fondo6.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+
+.seiscajas {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.seiscajas>h4
+{
+    color: #684C3F;
+    font-size: calc(2.1rem + 0.3vw);
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+
+
+
+/*ehehehhehehehehehhehehehehehhehehehehe*/
+
+
+
+.footer {
+    width: 100vw;
+    height: auto;
+    background-color: #2e2626;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; }
+
+.cajalogo > img {
+    width: 60%; 
+    height: auto;
+    display: block; 
+    margin: 0 auto; 
+}
+
+.cajacontacto {
+    color: white;
+    text-align: center;
+    font-size: 150%; 
+    margin-bottom: 20px; 
+}
+
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .cajalogo > img {
+        order: 2; 
+
+    }
+
+    .cajacontacto {
+        margin-bottom: 0;
+    }
+}
+
+
+.marca {
+    text-align: center ;
+    color:lightgray;
+}
+
+.footer {
+   
+    justify-content: flex-start; 
+}
+
+@media (max-width: 1600px) {
+    .footer {
+        justify-content: center; 
+    }
+}

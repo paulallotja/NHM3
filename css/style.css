@@ -1,0 +1,196 @@
+
+
+.navbar-brand > img{
+/*	width: 40%;*/
+	height: 80px;
+	margin-left: 25%;
+}
+
+
+.nav-link {
+	font-size: 25px;
+	color: #f5f0eb;	
+
+}
+
+.nav-link:hover{
+	color: #a6633c;
+}
+
+.container-fluid {
+	background-color: #2e2626;
+}
+
+.nav-item {
+	margin-right: 25px;
+/*	background-color: indianred;
+*/}
+
+.navbar-expand-lg .navbar-collapse{
+	justify-content: end;
+}
+
+#carousel {
+	margin-top: -10px;
+}
+
+#carrusel-item {
+	position: relative
+}
+.titulo1 {
+	width: 80%;
+	height: auto;
+	margin-left: 10%;
+	margin-top: 16%;
+	text-align: center;
+/*	background-color: indianred;
+*/	position: absolute;
+	font-size: calc(0.8rem + 2.4vw);
+	color:#f5f0eb;
+}
+
+.subtitulo1 {
+	width: 70%;
+	height: auto;
+	margin-left: 15%;
+	margin-top: 25%;
+	text-align: center;
+/*	background-color: indianred;*/
+	position: absolute;
+	font-weight: lighter;
+	font-style: italic;
+	color:#f5f0eb ;
+	font-size: calc(0.5rem + 1vw);
+
+}
+
+#info {
+	width: 100vw;
+	height: 1700px;
+	background-color: #f5f0eb;
+	text-align: center;
+	padding-top: 14%;
+}
+
+#infotext {
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 5%;
+	text-align: center;
+/*	background-color: indianred;*/
+}
+
+
+
+
+
+/*Inici caja botones*/
+#sectionbuttons{
+	width: 100%;
+	height: auto;
+}
+
+.linia {
+	width: 100%;
+	height: 40px;
+	background-color: #835846;
+}
+
+.cajabotones {
+	width: 100%;
+	height: auto;
+	background-color: #2e2626;
+
+}
+
+.rowboton{
+	width: 80%;
+	height: auto;
+/*	background-color: indianred;*/
+	margin-left: 10%;
+
+}
+
+
+.boton > img {
+	width:85%;
+	height: auto;
+	margin-top: 10%;
+	padding-bottom: 10%;
+}
+
+#cajaiconos {
+	margin-left:10%;
+	margin-right:10%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+/*	background-color: indigo;*/
+
+}
+
+.rowiconos {
+	align-content: center;
+	justify-content: center;	
+
+}
+
+
+
+/*ehehehhehehehehehhehehehehehhehehehehe*/
+
+
+
+.footer {
+    width: 100vw;
+    height: auto;
+    background-color: #2e2626;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; }
+
+.cajalogo > img {
+    width: 60%; 
+    height: auto;
+    display: block; 
+    margin: 0 auto; 
+}
+
+.cajacontacto {
+    color: white;
+    text-align: center;
+    font-size: 150%; 
+    margin-bottom: 20px; 
+}
+
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .cajalogo > img {
+        order: 2; 
+
+    }
+
+    .cajacontacto {
+        margin-bottom: 0;
+    }
+}
+
+
+.marca {
+	text-align: center ;
+	color:lightgray;
+}
+
+.footer {
+   
+    justify-content: flex-start; 
+}
+
+@media (max-width: 1600px) {
+    .footer {
+        justify-content: center; 
+    }
+}
